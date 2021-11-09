@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <button id="start" onclick="Start()">Start Game</button>
+    </div>
+    <div class="score">
+        <div class="wins">
+            <div>Player 1 - Won: <span id="w1">0</span></div>
+            <div>Player 2 - Won: <span id="w2">0</span></div>
+        </div>
+        <div class="card" style="padding:10px 0;">
+            <div class="p1health">
+                Health of P1: <span id="s1">100</span>
+            </div>
+            <div class="p2health">
+                Health of P2: <span id="s2">100</span>
+            </div>
+        </div>
+        <div id="winner">
+
+        </div>
+    </div>
+    <div class="arena">
+        <button id="p1" onclick = "Shoot1()">Player1
+        </button>
+        <button id="p2" onclick= "Shoot2()">Player2
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
